@@ -1,68 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="TeraNoor Hajj & Umrah — personalized Umrah packages, Hajj enquiries, hotels, transport, ziyarat and pilgrimage support. An initiative of TeraSyncTech.">
-<meta name="keywords" content="Umrah packages Ranchi, Hajj Umrah Jharkhand, Umrah packages India, Makkah hotels, Madinah hotels, TeraNoor">
-<meta name="theme-color" content="#075b43">
-<title>TeraNoor Hajj & Umrah | An Initiative of TeraSyncTech</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--green:#075b43;--green2:#0a7657;--dark:#04392e;--gold:#c9a34a;--cream:#fbfaf4;--soft:#eef7f3;--text:#173c35;--muted:#687872;--white:#fff;--line:#dfe9e4;--shadow:0 14px 38px rgba(5,58,45,.09)}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,Arial,sans-serif;color:var(--text);line-height:1.6;background:#fff;overflow-x:hidden}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.container{width:min(1180px,92%);margin:auto}.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(14px);border-bottom:1px solid #e7eee9;box-shadow:0 5px 25px rgba(4,57,46,.06)}.nav-wrap{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;color:var(--green);white-space:nowrap}.brand-mark{width:45px;height:45px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:23px}.brand strong{display:block;font:700 30px/1 Amiri,serif}.brand small{font-size:9px;letter-spacing:2px;font-weight:800}.main-nav{display:flex;align-items:center;gap:17px;font-size:12px;font-weight:700}.main-nav a:hover{color:var(--green2)}.nav-wa{background:var(--green);color:#fff!important;border-radius:25px;padding:11px 17px}.menu-toggle{display:none;border:0;background:none;font-size:28px;color:var(--green)}
-.hero{min-height:680px;position:relative;background:url('https://upload.wikimedia.org/wikipedia/commons/4/42/Kaaba%2C_Masjid_Al_Haram%2C_Mecca.jpg') center/cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,38,30,.94),rgba(2,50,39,.68) 48%,rgba(0,0,0,.08));}.hero-content{position:relative;z-index:1;color:#fff;padding:105px 0 70px;max-width:790px}.eyebrow{color:#e5c76c;font-size:12px;letter-spacing:2px;font-weight:800;margin-bottom:12px}.hero h1{font:700 clamp(50px,7vw,84px)/.98 Amiri,serif;margin-bottom:20px;text-shadow:0 5px 25px #0004}.hero h1 span{color:#e8ca70;font-style:italic}.hero p{font-size:18px;max-width:680px;color:#edf5f1;margin-bottom:28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid transparent;border-radius:28px;padding:13px 22px;font-size:13px;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:linear-gradient(135deg,var(--green2),var(--green));color:#fff;box-shadow:0 12px 28px #0003}.btn-gold{background:var(--gold);color:#15372e}.btn-outline{border-color:#fff;color:#fff;background:#ffffff12}.trust-row{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:32px;font-size:12px;font-weight:600}.hero-form{margin-top:38px;background:#ffffffeF;color:var(--text);padding:17px;border-radius:17px;max-width:900px;box-shadow:0 20px 45px #0003}.hero-form-grid{display:grid;grid-template-columns:1.2fr .8fr 1fr 1fr auto;gap:9px}.hero-form label,.form-label{font-size:10px;font-weight:800;color:var(--dark)}.hero-form input,.hero-form select,.form-control{width:100%;margin-top:5px;padding:11px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:12px;outline:none}.hero-form .btn{width:100%;height:41px;margin-top:15px}.quick{background:#fbfaf5;border-bottom:1px solid #e7eee9}.quick-grid{display:grid;grid-template-columns:repeat(6,1fr)}.quick-grid>div{min-height:100px;padding:18px 10px;text-align:center;border-right:1px solid #e1e7e2;display:flex;flex-direction:column;justify-content:center;gap:4px}.quick-grid>div:last-child{border:0}.quick-grid b{font-size:21px;color:var(--green)}.quick-grid span{font-size:11px;font-weight:800}.quick-grid small{display:block;color:var(--muted);font-size:9px;font-weight:500}
-.section{padding:82px 0}.section.alt{background:#f7fbf9}.heading{text-align:center;max-width:760px;margin:0 auto 38px}.heading .eyebrow{color:#a37b20}.heading h2,.feature h2,.contact h2{font:700 47px/1.05 Amiri,serif;color:var(--dark)}.heading p{color:var(--muted);margin-top:9px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow);overflow:hidden}.package-img{height:180px;background-size:cover;background-position:center}.makkah{background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/42/Kaaba%2C_Masjid_Al_Haram%2C_Mecca.jpg')}.madinah{background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/93/Masjid_An-Nabawi_in_Madinah.jpg')}.card-body{padding:19px}.tag{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#9a751d;font-weight:800}.card h3{font:700 27px/1.1 Amiri,serif;color:var(--dark);margin:4px 0}.card p{font-size:12px;color:var(--muted);min-height:65px}.ticks{list-style:none;margin:11px 0}.ticks li{font-size:11px;color:#52655e;margin:5px 0}.ticks li:before{content:'✓';color:var(--green);font-weight:800;margin-right:7px}.card .btn{width:100%;margin-top:8px;padding:10px}.featured{border:1.5px solid #d4b55f;position:relative}.featured:before{content:'POPULAR';position:absolute;right:10px;top:10px;background:#fff4d0;color:#866318;font-size:8px;font-weight:800;padding:5px 8px;border-radius:20px;z-index:2}
-.builder{background:linear-gradient(135deg,#04392e,#087154);color:#fff}.builder-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}.builder h2{color:#fff}.builder-copy p{color:#d5e8e1;margin:12px 0 22px}.builder-points{display:grid;grid-template-columns:1fr 1fr;gap:10px}.builder-points div{padding:12px;border:1px solid #ffffff26;background:#ffffff0b;border-radius:10px;font-size:11px}.builder-form{background:#fff;color:var(--text);padding:25px;border-radius:18px;box-shadow:0 22px 50px #001d1538}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.full{grid-column:1/-1}.builder-form h3{font:700 31px Amiri,serif;color:var(--dark);margin-bottom:5px}.builder-form .sub{font-size:11px;color:var(--muted);margin-bottom:17px}.form-control:focus{border-color:var(--green2);box-shadow:0 0 0 3px #0a765714}.builder-form textarea{min-height:75px;resize:vertical}.estimate{background:#f1f8f4;border-radius:10px;padding:11px;margin:14px 0;font-size:12px;color:var(--dark)}
-.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.service{padding:25px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 25px #0e3e3110;transition:.2s}.service:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service-icon{width:48px;height:48px;display:grid;place-items:center;background:#e9f4ef;color:var(--green);border-radius:50%;font-size:20px;margin-bottom:13px}.service h3{font-size:16px;color:var(--dark);margin-bottom:5px}.service p{font-size:12px;color:var(--muted)}
-.cities{display:grid;grid-template-columns:1fr 1fr;gap:22px}.city{height:330px;border-radius:19px;overflow:hidden;position:relative;background-size:cover;background-position:center;display:flex;align-items:end;box-shadow:var(--shadow)}.city:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(0,35,27,.85))}.city div{position:relative;z-index:1;color:#fff;padding:30px}.city h3{font:700 38px Amiri,serif}.city p{font-size:12px;color:#e2eee9}.city.makkah-city{background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/42/Kaaba%2C_Masjid_Al_Haram%2C_Mecca.jpg')}.city.madinah-city{background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/93/Masjid_An-Nabawi_in_Madinah.jpg')}
-.hotel-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.hotel-img{height:190px;background-size:cover;background-position:center}.hotel-makkah{background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/98/Hilton_Hotel_Makkah.jpg')}.hotel-madinah{background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b5/Madina_Hilton.JPG')}.hotel-img.other{background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/42/Kaaba%2C_Masjid_Al_Haram%2C_Mecca.jpg')}.hotel-body{padding:18px}.hotel-body h3{font:700 25px Amiri,serif;color:var(--dark)}.hotel-body p{font-size:11px;color:var(--muted)}.hotel-meta{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.hotel-meta span{font-size:9px;background:#edf6f1;color:#276251;border-radius:15px;padding:4px 7px}
-.guides{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.guide{padding:23px;border:1px solid var(--line);border-radius:16px;background:#fff}.guide h3{font:700 25px Amiri,serif;color:var(--dark)}.guide p{font-size:12px;color:var(--muted);margin:4px 0 13px}.guide a{font-size:11px;color:var(--green);font-weight:800}.why{background:linear-gradient(135deg,#04392e,#087154);color:#fff}.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#ffffff22}.why-grid div{text-align:center;padding:30px 20px;background:#00000012}.why-grid strong{font-size:30px;display:block;color:#f0d17a}.why-grid h3{font-size:14px}.why-grid p{font-size:11px;color:#cfe3dc;margin-top:4px}
-.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{padding:23px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 7px 24px #0e3e3108}.stars{color:#c59b34;letter-spacing:2px}.review p{font-family:Amiri,serif;font-size:21px;line-height:1.4;color:var(--dark);margin:9px 0}.review small{color:var(--muted)}
-.faq{max-width:850px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:15px 0}.faq summary{cursor:pointer;font-weight:800;font-size:14px;color:var(--dark);list-style:none}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:'+';float:right;color:var(--green);font-size:20px}.faq details[open] summary:after{content:'−'}.faq p{font-size:12px;color:var(--muted);padding:9px 22px 0 0}
-.contact{background:#04392e;color:#fff}.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:start}.contact h2{color:#fff}.contact-copy p{color:#cfe3dc;margin:13px 0 24px}.contact-list{display:grid;gap:9px;font-size:13px}.contact-form{background:#fff;color:var(--text);padding:24px;border-radius:17px}.contact-form textarea{min-height:100px}.contact-form .btn{width:100%;margin-top:7px}.form-note{font-size:9px;color:#7b8882;text-align:center;margin-top:8px}
-.site-footer{background:#02271f;color:#cbded8;padding-top:48px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:35px;padding-bottom:38px}.footer-brand{font:700 37px Amiri,serif;color:#fff}.footer-grid h4{color:#e7cb73;margin-bottom:10px}.footer-grid p,.footer-grid a{font-size:12px;margin:6px 0;color:#bdd0ca;display:block}.footer-grid a:hover{color:#fff}.footer-bottom{border-top:1px solid #ffffff14;padding:15px 0;font-size:10px;color:#88a69c}.float-wa{position:fixed;right:20px;bottom:20px;z-index:90;background:#1cae62;color:#fff;border-radius:50px;padding:13px 18px;font-size:12px;font-weight:800;box-shadow:0 10px 25px #0003}.modal{position:fixed;inset:0;background:#001d1588;display:none;place-items:center;z-index:200;padding:18px}.modal.open{display:grid}.modal-box{width:min(620px,100%);background:#fff;border-radius:18px;padding:26px;position:relative;max-height:90vh;overflow:auto}.modal-close{position:absolute;right:16px;top:12px;border:0;background:none;font-size:25px;color:var(--muted);cursor:pointer}.modal h3{font:700 34px Amiri,serif;color:var(--dark)}.modal p{font-size:12px;color:var(--muted);margin-bottom:15px}.success{display:none;background:#eaf7f0;border:1px solid #bfe2d1;color:#185a45;padding:12px;border-radius:9px;font-size:12px;margin-bottom:12px}
-@media(max-width:1050px){.main-nav{gap:10px;font-size:10px}.quick-grid{grid-template-columns:repeat(3,1fr)}.quick-grid>div:nth-child(3){border-right:0}.cards{grid-template-columns:repeat(2,1fr)}.hotel-grid{grid-template-columns:repeat(2,1fr)}.hero-form-grid{grid-template-columns:repeat(2,1fr)}.hero-form-grid .btn{grid-column:1/-1}.footer-grid{grid-template-columns:2fr 1fr 1fr}}
-@media(max-width:760px){.nav-wrap{min-height:68px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:15px 4%;flex-direction:column;align-items:stretch;border-bottom:1px solid #ddd}.main-nav.open{display:flex}.nav-wa{text-align:center}.hero{min-height:720px}.hero-content{padding-top:75px}.hero h1{font-size:53px}.hero p{font-size:16px}.hero-form-grid{grid-template-columns:1fr}.hero-form-grid .btn{grid-column:auto}.quick-grid{grid-template-columns:repeat(2,1fr)}.quick-grid>div:nth-child(3){border-right:1px solid #e1e7e2}.quick-grid>div:nth-child(even){border-right:0}.section{padding:65px 0}.heading h2,.feature h2,.contact h2{font-size:39px}.builder-grid,.contact-grid,.cities{grid-template-columns:1fr}.builder-points{grid-template-columns:1fr}.service-grid,.guides,.testimonials{grid-template-columns:1fr}.cards,.hotel-grid{grid-template-columns:1fr}.city{height:290px}.footer-grid{grid-template-columns:1fr 1fr}.float-wa{right:12px;bottom:12px}}
-@media(max-width:480px){.footer-grid{grid-template-columns:1fr}.hero h1{font-size:46px}.hero-actions .btn{width:100%}.trust-row{gap:8px 13px}.brand strong{font-size:27px}}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TeraNoor Hajj & Umrah Services — Umrah packages, Hajj information, hotels, transfers, ziyarat and travel support. An initiative of TeraSyncTech.">
+  <meta name="theme-color" content="#075b43">
+  <title>TeraNoor Hajj & Umrah | An Initiative of TeraSyncTech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--green:#075b43;--green2:#0a7657;--dark:#06372c;--gold:#c9a34a;--cream:#fbfaf4;--text:#173c35;--muted:#66756f;--white:#fff}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+.site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid #e8eee9;backdrop-filter:blur(12px)}
+.nav-wrap{height:76px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--green)}
+.brand-mark{display:grid;place-items:center;width:44px;height:44px;border:2px solid var(--gold);border-radius:50%;font-size:23px}
+.brand strong{display:block;font-family:Amiri,serif;font-size:29px;line-height:.9}
+.brand small{font-size:9px;letter-spacing:2px;font-weight:800}
+.main-nav{display:flex;align-items:center;gap:20px;font-size:13px;font-weight:600}
+.main-nav a:hover{color:var(--green2)}
+.nav-whatsapp{background:var(--green);color:#fff!important;padding:11px 18px;border-radius:25px}
+.menu-toggle{display:none;border:0;background:none;font-size:27px;color:var(--green)}
+.hero{min-height:620px;position:relative;background-image:url("https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=2000&q=85");background-size:cover;background-position:center}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(1,38,30,.92) 0%,rgba(2,45,36,.68) 48%,rgba(0,0,0,.1) 100%)}
+.hero-content{position:relative;z-index:1;color:#fff;padding:125px 0 70px;max-width:730px}
+.eyebrow{font-size:13px;letter-spacing:1.7px;color:var(--gold);font-weight:800;margin-bottom:12px}
+.eyebrow.dark{color:#a37b20}
+.hero h1{font-family:Amiri,Georgia,serif;font-size:clamp(48px,7vw,82px);line-height:1.02;margin-bottom:20px}
+.hero h1 span{color:#e6c76c;font-style:italic}
+.hero p{font-size:18px;max-width:650px;color:#f2f6f3;margin-bottom:28px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;justify-content:center;align-items:center;padding:13px 23px;border-radius:30px;font-weight:800;font-size:14px;border:1px solid transparent;cursor:pointer}
+.btn-primary{background:var(--green2);color:#fff;box-shadow:0 8px 22px rgba(0,0,0,.12)}
+.btn-primary:hover{background:#075e46;transform:translateY(-1px)}
+.btn-outline{border-color:#fff;color:#fff;background:transparent}
+.trust-row{display:flex;flex-wrap:wrap;gap:22px;margin-top:35px;font-size:12px;font-weight:600}
+.quick-services{background:#fbfaf5;border-bottom:1px solid #e9eee9}
+.quick-grid{display:grid;grid-template-columns:repeat(6,1fr)}
+.quick-grid>div{min-height:105px;padding:20px 12px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-right:1px solid #e1e7e2;gap:5px}
+.quick-grid>div:last-child{border-right:0}
+.quick-grid b{color:var(--green);font-size:22px}
+.quick-grid span{font-size:12px;font-weight:700}
+.quick-grid small{display:block;font-size:10px;color:var(--muted);font-weight:500}
+.section{padding:85px 0}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}
+.section-heading h2,.center-heading h2,.feature-content h2,.contact-copy h2{font-family:Amiri,Georgia,serif;font-size:46px;line-height:1.05;color:var(--dark)}
+.section-heading p,.center-heading p{color:var(--muted);margin-top:8px}
+.text-link{font-weight:800;color:var(--green);font-size:13px}
+.package-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:15px}
+.package-card{border:1px solid #e3e9e5;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 8px 25px rgba(14,62,49,.07);transition:.25s}
+.package-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(14,62,49,.13)}
+.package-image{height:170px;background-size:cover;background-position:center}
+.img-makkah{background-image:url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80")}
+.img-madinah{background-image:url("https://images.unsplash.com/photo-1565552629470-9e11b9b7e9c1?auto=format&fit=crop&w=900&q=80")}
+.img-haram{background-image:url("https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?auto=format&fit=crop&w=900&q=80")}
+.img-night{background-image:url("https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=900&q=80")}
+.img-family{background-image:url("https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=900&q=80")}
+.package-body{padding:18px}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--green);font-weight:800}
+.package-body h3{font-family:Amiri,serif;font-size:24px;color:var(--dark);margin:3px 0 7px}
+.package-body p{font-size:12px;color:var(--muted);min-height:76px}
+.btn-card{display:block;text-align:center;background:var(--green);color:#fff;padding:10px;border-radius:20px;font-size:12px;font-weight:800;margin-top:14px}
+.feature-band{min-height:350px;background-image:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.86) 48%,rgba(255,255,255,.05) 100%),url("https://images.unsplash.com/photo-1564769662533-4f00a87b4056?auto=format&fit=crop&w=1800&q=85");background-size:cover;background-position:center}
+.feature-content{padding:95px 0}
+.feature-content>div{max-width:550px}
+.feature-content p{color:var(--muted);margin:12px 0 22px}
+.center-heading{text-align:center;max-width:720px;margin:0 auto 35px}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.service-card{border:1px solid #e4ebe7;border-radius:12px;padding:27px;background:#fff}
+.service-card span{display:grid;place-items:center;width:48px;height:48px;background:#e8f3ee;color:var(--green);border-radius:50%;font-size:20px;margin-bottom:14px}
+.service-card h3{font-size:17px;margin-bottom:6px;color:var(--dark)}
+.service-card p{font-size:13px;color:var(--muted)}
+.why-section{padding:85px 0;background:linear-gradient(135deg,#06372c,#087154);color:#fff}
+.center-heading.light h2{color:#fff}.center-heading.light p{color:#d8ebe4}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.18)}
+.why-grid>div{padding:32px 22px;text-align:center;background:rgba(0,0,0,.08)}
+.why-grid strong{font-size:30px;display:block;margin-bottom:10px}.why-grid h3{font-size:15px}.why-grid p{font-size:12px;color:#c9e0d8;margin-top:5px}
+.holy-section{background:#f6fbf8}
+.city-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.city-card{height:300px;border-radius:14px;overflow:hidden;display:flex;align-items:end;background-size:cover;background-position:center;position:relative}
+.city-card:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(0,35,27,.82))}
+.city-makkah{background-image:url("https://images.unsplash.com/photo-1564769625392-651b9d8e3d0b?auto=format&fit=crop&w=1300&q=85")}
+.city-madinah{background-image:url("https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?auto=format&fit=crop&w=1300&q=85")}
+.city-card div{position:relative;z-index:1;color:#fff;padding:28px}.city-card span{font-size:11px;letter-spacing:2px;color:#e7c86b;font-weight:800}.city-card h3{font-family:Amiri,serif;font-size:32px}
+.quote-section{padding:55px 0;background:#eef7f3}
+.quote-box{text-align:center;max-width:720px}.quote-mark{font-family:Georgia;font-size:65px;color:var(--gold);line-height:.5}.quote-box p{font-family:Amiri,serif;font-size:28px;color:var(--dark)}.quote-box small{color:var(--muted)}
+.contact-section{padding:85px 0;background:#04392e;color:#fff}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}
+.contact-copy h2{color:#fff}.contact-copy>p{color:#cde1da;margin:15px 0 25px}.contact-details{display:flex;flex-direction:column;gap:10px;font-size:14px}.contact-details a:hover{color:#e5c86e}
+.enquiry-form{background:#fff;color:var(--text);padding:25px;border-radius:14px;box-shadow:0 20px 45px rgba(0,0,0,.15)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.enquiry-form label{display:block;font-size:11px;font-weight:800;margin-bottom:13px}
+input,select,textarea{display:block;width:100%;margin-top:6px;padding:12px;border:1px solid #dce5e0;border-radius:8px;font:inherit;font-size:13px;outline:none;background:#fff}
+input:focus,select:focus,textarea:focus{border-color:var(--green2);box-shadow:0 0 0 3px rgba(10,118,87,.08)}
+.form-submit{width:100%;border:0}.form-note{font-size:10px;color:#78857f;text-align:center;margin-top:8px}
+.site-footer{background:#02271f;color:#d5e4df;padding-top:50px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:40px}.footer-brand{font-family:Amiri,serif;font-size:35px;color:#fff}.footer-grid p{margin:0 0 3px}.footer-grid small{color:#91b0a6}.footer-grid h4{color:#e9d079;margin-bottom:12px}.footer-grid a,.footer-grid span{display:block;font-size:13px;margin:7px 0;color:#c9dbd5}.footer-grid a:hover{color:#fff}.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:16px 0;font-size:11px;color:#8fa9a1}
+@media(max-width:1000px){.main-nav{gap:12px;font-size:11px}.package-grid{grid-template-columns:repeat(3,1fr)}.quick-grid{grid-template-columns:repeat(3,1fr)}.quick-grid>div:nth-child(3){border-right:0}.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.nav-wrap{height:68px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:15px 5%;flex-direction:column;align-items:stretch;border-bottom:1px solid #ddd}.main-nav.open{display:flex}.nav-whatsapp{text-align:center}.hero{min-height:650px}.hero-content{padding-top:95px}.hero h1{font-size:52px}.trust-row{gap:10px 16px}.quick-grid{grid-template-columns:repeat(2,1fr)}.quick-grid>div:nth-child(3){border-right:1px solid #e1e7e2}.quick-grid>div:nth-child(even){border-right:0}.section{padding:65px 0}.section-heading{display:block}.text-link{display:inline-block;margin-top:16px}.package-grid{grid-template-columns:1fr}.package-image{height:210px}.feature-content{padding:75px 0}.service-grid,.city-grid,.contact-grid{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.form-row{grid-template-columns:1fr}.contact-grid{gap:35px}}
+@media(max-width:480px){.footer-grid{grid-template-columns:1fr}.hero p{font-size:16px}.hero-actions .btn{width:100%}.hero h1{font-size:46px}.section-heading h2,.center-heading h2,.feature-content h2,.contact-copy h2{font-size:39px}}
+
+/* TeraNoor professional visual upgrade */
+body{overflow-x:hidden}
+.site-header{box-shadow:0 4px 24px rgba(4,57,46,.06)}
+.brand{white-space:nowrap}
+.hero{isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 20%,rgba(201,163,74,.22),transparent 26%),linear-gradient(180deg,transparent 60%,rgba(0,20,15,.28));z-index:0}
+.hero-content{max-width:760px}
+.hero h1{text-shadow:0 4px 25px rgba(0,0,0,.22)}
+.hero p{line-height:1.75}
+.btn-primary{background:linear-gradient(135deg,#0a7657,#075b43);box-shadow:0 12px 30px rgba(7,91,67,.25)}
+.btn-outline{backdrop-filter:blur(8px);background:rgba(255,255,255,.08)}
+.quick-services{box-shadow:0 8px 28px rgba(7,91,67,.05)}
+.quick-grid>div{transition:.25s ease}
+.quick-grid>div:hover{background:#fff;transform:translateY(-2px)}
+.section{position:relative}
+.section-heading h2,.center-heading h2,.feature-content h2,.contact-copy h2{letter-spacing:-.5px}
+.package-grid{gap:20px}
+.package-card{border-radius:18px;box-shadow:0 12px 35px rgba(14,62,49,.08)}
+.package-card.featured{border:1.5px solid rgba(201,163,74,.7);position:relative}
+.package-card.featured:before{content:"RECOMMENDED";position:absolute;right:12px;top:12px;z-index:2;background:#fff3cf;color:#8c6814;padding:5px 8px;border-radius:20px;font-size:9px;font-weight:800;letter-spacing:.8px}
+.package-image{height:185px;position:relative}
+.package-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(0,30,23,.22))}
+.package-body{padding:20px}
+.btn-card{background:linear-gradient(135deg,#0a7657,#075b43);box-shadow:0 7px 18px rgba(7,91,67,.16)}
+.feature-band{border-top:1px solid rgba(6,55,44,.06);border-bottom:1px solid rgba(6,55,44,.06)}
+.service-card{border-radius:16px;box-shadow:0 8px 28px rgba(14,62,49,.05);transition:.25s ease}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(14,62,49,.10)}
+.city-grid{gap:24px}
+.city-card{height:340px;border-radius:20px;box-shadow:0 18px 40px rgba(6,55,44,.12)}
+.city-card div{padding:32px}
+.city-card h3{font-size:38px}
+.city-card p{font-size:12px;color:#e7efeb;margin-top:3px}
+.hotel-intro{margin:42px 0 20px;padding:28px 30px;border:1px solid #e3ebe6;border-radius:18px;background:linear-gradient(135deg,#fff,#f3faf6);display:flex;justify-content:space-between;align-items:center;gap:30px}
+.hotel-intro h3{font-family:Amiri,Georgia,serif;color:var(--dark);font-size:34px;line-height:1.1;margin-top:2px}
+.hotel-intro p{max-width:720px;color:var(--muted);font-size:13px;margin-top:7px}
+.hotel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.hotel-card{background:#fff;border:1px solid #e1e9e4;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(14,62,49,.07);transition:.25s ease}
+.hotel-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(14,62,49,.12)}
+.hotel-image{height:220px;background-size:cover;background-position:center;position:relative}
+.hotel-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,30,23,.35))}
+.hotel-makkah{background-image:url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=85")}
+.hotel-madinah{background-image:url("https://images.unsplash.com/photo-1722189226954-59f3e712160d?auto=format&fit=crop&w=1200&q=85")}
+.hotel-room{background-image:url("https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=85")}
+.hotel-body{padding:20px}
+.hotel-body>span{font-size:9px;letter-spacing:1.6px;color:#a37b20;font-weight:800}
+.hotel-body h3{font-family:Amiri,Georgia,serif;color:var(--dark);font-size:26px;margin:2px 0 5px}
+.hotel-body p{font-size:12px;color:var(--muted);line-height:1.65}
+.image-note{font-size:10px;color:#84918c;text-align:center;margin-top:14px}
+.quote-box{padding:0 20px}
+.enquiry-form{border:1px solid rgba(255,255,255,.35)}
+.site-footer{border-top:1px solid rgba(255,255,255,.06)}
+@media(max-width:1000px){.hotel-grid{grid-template-columns:1fr 1fr}.package-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.hotel-intro{display:block;padding:24px}.hotel-intro .text-link{display:inline-block;margin-top:16px}.hotel-grid{grid-template-columns:1fr}.city-card{height:290px}.city-card h3{font-size:32px}.package-grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
-<header class="site-header"><div class="container nav-wrap"><a class="brand" href="#home"><span class="brand-mark">☾</span><span><strong>TeraNoor</strong><small>HAJJ & UMRAH</small></span></a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="main-nav"><a href="#home">Home</a><a href="#packages">Packages</a><a href="#builder">Plan Journey</a><a href="#hotels">Hotels</a><a href="#services">Services</a><a href="#guides">Guides</a><a href="#faq">FAQ</a><a href="#contact">Contact</a><a class="nav-wa" target="_blank" rel="noopener" href="https://wa.me/917633801161?text=Assalamu%20Alaikum%2C%20I%20want%20to%20enquire%20about%20TeraNoor%20Hajj%20%26%20Umrah.">WhatsApp</a></nav></div></header>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="TeraNoor Home">
+      <span class="brand-mark">☾</span>
+      <span>
+        <strong>TeraNoor</strong>
+        <small>HAJJ & UMRAH</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#umrah">Umrah Packages</a>
+      <a href="#hajj">Hajj</a>
+      <a href="#hotels">Hotels</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-whatsapp" href="https://wa.me/917633801161?text=Assalamu%20Alaikum%2C%20I%20would%20like%20to%20know%20about%20TeraNoor%20Hajj%20%26%20Umrah%20packages." target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section id="home" class="hero"><div class="container hero-content"><div class="eyebrow">✦ HAJJ & UMRAH SERVICES • AN INITIATIVE OF TERASYNCTECH</div><h1>Sacred Journeys.<br><span>Heartfelt Service.</span></h1><p>Plan your journey to the Holy Places with personalized package guidance, hotel options, transport support and responsive assistance from India.</p><div class="hero-actions"><a class="btn btn-primary" href="#builder">Plan My Umrah</a><a class="btn btn-gold" target="_blank" rel="noopener" href="https://wa.me/917633801161?text=Assalamu%20Alaikum%2C%20I%20want%20a%20TeraNoor%20Hajj%20%26%20Umrah%20quote.">Get WhatsApp Quote</a><a class="btn btn-outline" href="tel:+917633801161">Call Now</a></div><div class="trust-row"><span>✓ Personalized Enquiries</span><span>✓ Family & Group Assistance</span><span>✓ Makkah & Madinah Options</span><span>✓ India Support</span></div><div class="hero-form"><div class="hero-form-grid"><label>Journey<select id="quickType"><option>Umrah</option><option>Hajj</option></select></label><label>Pilgrims<input id="quickPeople" type="number" min="1" value="2"></label><label>Departure City<input id="quickCity" placeholder="Ranchi"></label><label>Travel Month<select id="quickMonth"><option>Any Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select></label><div><button class="btn btn-primary" onclick="quickQuote()">Get Quote</button></div></div></div></div></section>
-<section class="quick"><div class="container quick-grid"><div><b>✈</b><span>Flight Coordination<small>India to Saudi</small></span></div><div><b>▣</b><span>Hotel Options<small>Makkah & Madinah</small></span></div><div><b>▰</b><span>Transfers<small>Airport & inter-city</small></span></div><div><b>⌖</b><span>Ziyarat Support<small>Makkah & Madinah</small></span></div><div><b>♟</b><span>Group Packages<small>Families & communities</small></span></div><div><b>24</b><span>Enquiry Support<small>WhatsApp & phone</small></span></div></div></section>
-<section id="packages" class="section"><div class="container"><div class="heading"><div class="eyebrow">UMRAH PACKAGES</div><h2>Choose a Journey That Fits You</h2><p>Sample package categories are shown for enquiry purposes. Final pricing depends on dates, flights, hotel availability, room type and services selected.</p></div><div class="cards">
-<article class="card featured"><div class="package-img makkah"></div><div class="card-body"><span class="tag">Value</span><h3>Economy Umrah</h3><p>Designed for pilgrims looking for a practical, comfortable journey.</p><ul class="ticks"><li>Hotel options</li><li>Visa assistance</li><li>Transport options</li><li>Quote based on dates</li></ul><button class="btn btn-primary" onclick="openPackage('Economy Umrah')">Request Price</button></div></article>
-<article class="card"><div class="package-img madinah"></div><div class="card-body"><span class="tag">Comfort</span><h3>Standard Umrah</h3><p>A balanced option for families and first-time pilgrims.</p><ul class="ticks"><li>Better hotel options</li><li>Transport coordination</li><li>Flexible duration</li><li>Personalized quote</li></ul><button class="btn btn-primary" onclick="openPackage('Standard Umrah')">Request Price</button></div></article>
-<article class="card"><div class="package-img makkah"></div><div class="card-body"><span class="tag">Premium</span><h3>Premium Umrah</h3><p>For pilgrims seeking upgraded hotels and additional comfort.</p><ul class="ticks"><li>Premium hotel options</li><li>Private transfer option</li><li>Room upgrade choices</li><li>Dedicated enquiry</li></ul><button class="btn btn-primary" onclick="openPackage('Premium Umrah')">Request Price</button></div></article>
-<article class="card"><div class="package-img madinah"></div><div class="card-body"><span class="tag">Family</span><h3>Family Umrah</h3><p>Build a family itinerary around your dates, rooms and budget.</p><ul class="ticks"><li>Family room options</li><li>Child requirements</li><li>Group transport</li><li>Custom quotation</li></ul><button class="btn btn-primary" onclick="openPackage('Family Umrah')">Request Price</button></div></article>
-</div></div></section>
-<section id="builder" class="section builder"><div class="container builder-grid"><div class="builder-copy"><div class="eyebrow">BUILD YOUR JOURNEY</div><h2>Tell Us What You Need. We'll Prepare a Custom Quote.</h2><p>Select your departure city, pilgrims, duration, hotel preference and transport needs. Your request can be sent directly to TeraNoor on WhatsApp.</p><div class="builder-points"><div>🕋 Makkah stay preference</div><div>🕌 Madinah stay preference</div><div>✈ Departure city & month</div><div>👨‍👩‍👧 Family/group size</div><div>🚐 Transport preference</div><div>💬 Special requirements</div></div></div><form class="builder-form" onsubmit="sendBuilder(event)"><h3>Plan My Journey</h3><div class="sub">No online payment. This form prepares an enquiry for quotation.</div><div class="form-grid"><label class="form-label">Name<input class="form-control" id="bName" required placeholder="Your name"></label><label class="form-label">Mobile<input class="form-control" id="bPhone" required type="tel" placeholder="Mobile number"></label><label class="form-label">Journey<select class="form-control" id="bType"><option>Umrah</option><option>Hajj</option></select></label><label class="form-label">Departure City<input class="form-control" id="bCity" required placeholder="Ranchi"></label><label class="form-label">Pilgrims<input class="form-control" id="bPeople" required type="number" min="1" value="2"></label><label class="form-label">Duration<select class="form-control" id="bDays"><option>7 Days</option><option>10 Days</option><option>14 Days</option><option>21 Days</option><option>Flexible</option></select></label><label class="form-label">Preferred Month<select class="form-control" id="bMonth"><option>Any Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select></label><label class="form-label">Hotel Preference<select class="form-control" id="bHotel"><option>Economy</option><option>3 Star</option><option>4 Star</option><option>5 Star</option><option>Near Haram / Premium</option></select></label><label class="form-label">Transport<select class="form-control" id="bTransport"><option>Shared</option><option>Private</option><option>Need advice</option></select></label><label class="form-label full">Special Requirements<textarea class="form-control" id="bNotes" placeholder="Senior citizens, children, wheelchair, family rooms, preferred area, etc."></textarea></label></div><div class="estimate">💡 Final price will be confirmed after checking live availability, dates, flights and hotel rates.</div><button class="btn btn-primary" type="submit">Send Custom Enquiry on WhatsApp</button></form></div></section>
-<section id="services" class="section alt"><div class="container"><div class="heading"><div class="eyebrow">OUR SERVICES</div><h2>More Than Just a Package</h2><p>Build your journey around the services you actually need.</p></div><div class="service-grid"><div class="service"><div class="service-icon">✈</div><h3>Flight Coordination</h3><p>Departure options and flight coordination based on your travel dates.</p></div><div class="service"><div class="service-icon">🕋</div><h3>Umrah Packages</h3><p>Flexible economy, standard, premium and family package enquiries.</p></div><div class="service"><div class="service-icon">🕌</div><h3>Hajj Enquiries</h3><p>Enquire for Hajj requirements, dates and available arrangements.</p></div><div class="service"><div class="service-icon">🏨</div><h3>Makkah Hotels</h3><p>Compare accommodation options according to location and budget.</p></div><div class="service"><div class="service-icon">🏨</div><h3>Madinah Hotels</h3><p>Hotel options near Masjid an-Nabawi and other preferred areas.</p></div><div class="service"><div class="service-icon">🚐</div><h3>Transfers & Transport</h3><p>Airport, Makkah–Madinah and local transport options.</p></div><div class="service"><div class="service-icon">📍</div><h3>Ziyarat Support</h3><p>Enquire about Makkah and Madinah ziyarat arrangements.</p></div><div class="service"><div class="service-icon">👨‍👩‍👧</div><h3>Family & Group Booking</h3><p>Support for families, community groups and larger enquiries.</p></div><div class="service"><div class="service-icon">🧓</div><h3>Senior Citizen Assistance</h3><p>Discuss mobility, room, transport and assistance requirements before travel.</p></div></div></div></section>
-<section class="section"><div class="container"><div class="heading"><div class="eyebrow">HOLY CITIES</div><h2>Makkah & Madinah</h2><p>Explore your destination and ask us about accommodation, transport and ziyarat options.</p></div><div class="cities"><div class="city makkah-city"><div><span>THE HOLY CITY</span><h3>Makkah</h3><p>Masjid al-Haram • Kaaba • Ziyarat</p></div></div><div class="city madinah-city"><div><span>THE CITY OF THE PROPHET ﷺ</span><h3>Madinah</h3><p>Masjid an-Nabawi • Ziyarat • Rawdah information</p></div></div></div></div></section>
-<section id="hotels" class="section alt"><div class="container"><div class="heading"><div class="eyebrow">HOTEL OPTIONS</div><h2>Makkah & Madinah Accommodation</h2><p>These are example hotel references. Availability, rates and room categories must be confirmed for the requested dates.</p></div><div class="hotel-grid"><article class="card"><div class="hotel-img hotel-makkah"></div><div class="hotel-body"><span class="tag">MAKKAH</span><h3>Hilton Hotel Makkah</h3><div class="hotel-meta"><span>Haram Area</span><span>Hotel Enquiry</span></div><p>Ask for current availability, room type, meals and rate for your dates.</p><button class="btn btn-primary" onclick="openPackage('Makkah Hotel Enquiry')">Ask Availability</button></div></article><article class="card"><div class="hotel-img hotel-madinah"></div><div class="hotel-body"><span class="tag">MADINAH</span><h3>Madina Hilton</h3><div class="hotel-meta"><span>Near Nabawi</span><span>Hotel Enquiry</span></div><p>Ask for current availability, room type, meals and rate for your dates.</p><button class="btn btn-primary" onclick="openPackage('Madinah Hotel Enquiry')">Ask Availability</button></div></article><article class="card"><div class="hotel-img other"></div><div class="hotel-body"><span class="tag">MAKKAH</span><h3>Near Haram Options</h3><div class="hotel-meta"><span>3–5 Star</span><span>Compare</span></div><p>Tell us your budget and walking-distance preference and request options.</p><button class="btn btn-primary" onclick="openPackage('Makkah Hotel Options')">Compare Hotels</button></div></article><article class="card"><div class="hotel-img hotel-madinah"></div><div class="hotel-body"><span class="tag">MADINAH</span><h3>Near Nabawi Options</h3><div class="hotel-meta"><span>3–5 Star</span><span>Compare</span></div><p>Ask for suitable hotels according to room type, budget and dates.</p><button class="btn btn-primary" onclick="openPackage('Madinah Hotel Options')">Compare Hotels</button></div></article></div><p style="font-size:9px;color:#7d8c86;text-align:center;margin-top:13px">Hotel photographs are illustrative and subject to Wikimedia Commons licensing/source attribution listed in IMAGE-ATTRIBUTION.txt.</p></div></section>
-<section id="guides" class="section"><div class="container"><div class="heading"><div class="eyebrow">PILGRIM RESOURCES</div><h2>Helpful Hajj & Umrah Guides</h2><p>Useful content can help first-time pilgrims prepare with confidence.</p></div><div class="guides"><article class="guide"><h3>Umrah Step-by-Step</h3><p>Learn the basic sequence of Ihram, Tawaf, Sa'i and completion of Umrah.</p><a href="#contact">ASK FOR GUIDANCE →</a></article><article class="guide"><h3>Umrah Packing Checklist</h3><p>Prepare documents, clothing, medicines, footwear and useful travel items.</p><a href="#contact">GET CHECKLIST →</a></article><article class="guide"><h3>Umrah for Families</h3><p>Consider room arrangements, children, transport and senior family members.</p><a href="#builder">PLAN FAMILY TRIP →</a></article><article class="guide"><h3>Makkah Guide</h3><p>Explore the main pilgrimage locations and ask about ziyarat arrangements.</p><a href="#contact">ASK ABOUT ZIYARAT →</a></article><article class="guide"><h3>Madinah Guide</h3><p>Learn about Masjid an-Nabawi and places commonly visited by pilgrims.</p><a href="#contact">ASK ABOUT MADINAH →</a></article><article class="guide"><h3>First-Time Pilgrim</h3><p>Start with your dates, departure city and group size; we can guide the enquiry.</p><a href="#builder">START PLANNING →</a></article></div></div></section>
-<section class="section why"><div class="container"><div class="heading"><div class="eyebrow">WHY TERANOOR</div><h2 style="color:#fff">Built Around Pilgrim Needs</h2><p style="color:#cfe3dc">Clear communication, flexible options and a personal approach.</p></div><div class="why-grid"><div><strong>01</strong><h3>Personalized Quotes</h3><p>Packages built around dates and requirements.</p></div><div><strong>02</strong><h3>Family Friendly</h3><p>Room, child and group requirements can be discussed.</p></div><div><strong>03</strong><h3>Transparent Enquiry</h3><p>Confirm rates and availability before booking.</p></div><div><strong>04</strong><h3>Direct Support</h3><p>Connect by WhatsApp or phone.</p></div></div></div></section>
-<section class="section"><div class="container"><div class="heading"><div class="eyebrow">PILGRIM FEEDBACK</div><h2>What Our Pilgrims Say</h2><p>Replace these placeholders with genuine customer reviews after your first bookings.</p></div><div class="testimonials"><article class="review"><div class="stars">★★★★★</div><p>“Add your first verified pilgrim experience here.”</p><small>— Customer Name, City</small></article><article class="review"><div class="stars">★★★★★</div><p>“Use this space for a genuine review about service and support.”</p><small>— Customer Name, City</small></article><article class="review"><div class="stars">★★★★★</div><p>“Real reviews will help build trust as TeraNoor grows.”</p><small>— Customer Name, City</small></article></div></div></section>
-<section id="faq" class="section alt"><div class="container"><div class="heading"><div class="eyebrow">FAQ</div><h2>Frequently Asked Questions</h2></div><div class="faq"><details open><summary>How do I get an Umrah package price?</summary><p>Send your departure city, travel month, number of pilgrims and preferred hotel category. We will prepare an enquiry based on current availability and rates.</p></details><details><summary>Can I request a family or group package?</summary><p>Yes. Use the custom journey form and mention your group size, room requirements and any special needs.</p></details><details><summary>Are the prices shown on the website final?</summary><p>No. Package prices can change with flights, hotel availability, dates, room types and other services. Final pricing should be confirmed before booking.</p></details><details><summary>Can you arrange hotels in Makkah and Madinah?</summary><p>You can enquire about available hotel options. The final hotel depends on availability, dates, room category and the services included in your package.</p></details><details><summary>Do you provide Hajj packages?</summary><p>Hajj enquiries can be submitted through the website. Any Hajj service or authorization claim should only be made when the required arrangements and permissions are in place.</p></details><details><summary>How can I contact TeraNoor?</summary><p>Use the WhatsApp, phone or enquiry form. The website currently routes enquiries to +91 76338 01161.</p></details></div></div></section>
-<section id="contact" class="section contact"><div class="container contact-grid"><div class="contact-copy"><div class="eyebrow">START YOUR ENQUIRY</div><h2>Ready for Your Sacred Journey?</h2><p>Tell us your travel requirements and receive a personalized response.</p><div class="contact-list"><a href="tel:+917633801161">📞 +91 76338 01161</a><a target="_blank" rel="noopener" href="https://wa.me/917633801161">💬 WhatsApp TeraNoor</a><span>🏢 TeraNoor Hajj & Umrah</span><span>Powered by TeraSyncTech</span></div></div><form class="contact-form" onsubmit="sendContact(event)"><div id="contactSuccess" class="success">Your enquiry is ready. WhatsApp will open with the details.</div><div class="form-grid"><label class="form-label">Name<input class="form-control" id="cName" required placeholder="Full name"></label><label class="form-label">Mobile<input class="form-control" id="cPhone" required type="tel" placeholder="Mobile number"></label><label class="form-label">Interested In<select class="form-control" id="cInterest"><option>Umrah Package</option><option>Hajj Enquiry</option><option>Hotel</option><option>Flight</option><option>Transport</option><option>Group Booking</option><option>Other</option></select></label><label class="form-label">City<input class="form-control" id="cCity" placeholder="Ranchi"></label><label class="form-label full">Message<textarea class="form-control" id="cMessage" required placeholder="Travel month, pilgrims, duration, budget or any question"></textarea></label></div><button class="btn btn-primary" type="submit">Send Enquiry on WhatsApp</button><div class="form-note">Your enquiry is sent through WhatsApp. No payment is collected through this form.</div></form></div></section>
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="eyebrow">✦ HAJJ & UMRAH SERVICES</div>
+      <h1>Sacred Journeys.<br><span>Heartfelt Service.</span></h1>
+      <p>Plan your journey to the Holy Places with caring support from India and on-ground coordination in Saudi Arabia.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/917633801161?text=Assalamu%20Alaikum%2C%20I%20want%20to%20enquire%20about%20TeraNoor%20Hajj%20%26%20Umrah." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+917633801161">Call Now</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ India Support</span>
+        <span>✓ Saudi Ground Team</span>
+        <span>✓ Dubai Support</span>
+        <span>✓ Family & Group Assistance</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-services">
+    <div class="container quick-grid">
+      <div><b>✈</b><span>Flight Coordination<small>India to Saudi</small></span></div>
+      <div><b>▣</b><span>Hotel Accommodation<small>Makkah & Madinah</small></span></div>
+      <div><b>▰</b><span>Transfers & Transport<small>Airport & inter-city</small></span></div>
+      <div><b>⌖</b><span>Ziyarat Support<small>Makkah & Madinah</small></span></div>
+      <div><b>♟</b><span>Group Packages<small>Families & communities</small></span></div>
+      <div><b>24</b><span>Support<small>India / Saudi / Dubai</small></span></div>
+    </div>
+  </section>
+
+  <section id="umrah" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow dark">✦ UMRAH PACKAGES</div>
+          <h2>Choose Your Umrah Journey</h2>
+          <p>Flexible options for individuals, couples, families and groups.</p>
+        </div>
+        <a class="text-link" href="#contact">Request a Custom Package →</a>
+      </div>
+
+      <div class="package-grid">
+        <article class="package-card">
+          <div class="package-image img-makkah"></div>
+          <div class="package-body">
+            <span class="tag">Budget</span>
+            <h3>Economy Umrah</h3>
+            <p>Practical accommodation and essential travel support for a value-focused journey.</p>
+            <a class="btn-card" href="#contact" data-package="Economy Umrah">Enquire Now</a>
+          </div>
+        </article>
+
+        <article class="package-card featured">
+          <div class="package-image img-madinah"></div>
+          <div class="package-body">
+            <span class="tag">Popular</span>
+            <h3>Standard Umrah</h3>
+            <p>Comfortable hotels, transport coordination and a balanced package for families.</p>
+            <a class="btn-card" href="#contact" data-package="Standard Umrah">Enquire Now</a>
+          </div>
+        </article>
+
+        <article class="package-card">
+          <div class="package-image img-haram"></div>
+          <div class="package-body">
+            <span class="tag">Premium</span>
+            <h3>Premium Umrah</h3>
+            <p>Higher-comfort accommodation and enhanced travel arrangements.</p>
+            <a class="btn-card" href="#contact" data-package="Premium Umrah">Enquire Now</a>
+          </div>
+        </article>
+
+        <article class="package-card">
+          <div class="package-image img-night"></div>
+          <div class="package-body">
+            <span class="tag">Seasonal</span>
+            <h3>Ramadan Umrah</h3>
+            <p>Seasonal packages planned around Ramadan travel requirements and availability.</p>
+            <a class="btn-card" href="#contact" data-package="Ramadan Umrah">Enquire Now</a>
+          </div>
+        </article>
+
+        <article class="package-card">
+          <div class="package-image img-family"></div>
+          <div class="package-body">
+            <span class="tag">Family</span>
+            <h3>Family Umrah</h3>
+            <p>Group-friendly arrangements designed for families travelling together.</p>
+            <a class="btn-card" href="#contact" data-package="Family Umrah">Enquire Now</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="hajj" class="feature-band">
+    <div class="container feature-content">
+      <div>
+        <div class="eyebrow">✦ HAJJ</div>
+        <h2>A Journey of a Lifetime</h2>
+        <p>Explore Hajj travel information, package options and support services. Availability and eligibility are subject to applicable official requirements.</p>
+        <a class="btn btn-primary" href="#contact" data-package="Hajj Enquiry">Discuss Hajj</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="center-heading">
+        <div class="eyebrow dark">✦ OUR SERVICES</div>
+        <h2>Everything Planned Around Your Journey</h2>
+        <p>We coordinate the practical details so you can focus on your pilgrimage.</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-card"><span>✈</span><h3>Flight Assistance</h3><p>Travel planning and flight coordination for departures from India.</p></div>
+        <div class="service-card"><span>▣</span><h3>Hotel Accommodation</h3><p>Hotel options in Makkah and Madinah based on your package.</p></div>
+        <div class="service-card"><span>▰</span><h3>Airport Transfers</h3><p>Arrival, departure and inter-city transport coordination.</p></div>
+        <div class="service-card"><span>⌖</span><h3>Ziyarat</h3><p>Local ziyarat arrangements and guidance where included.</p></div>
+        <div class="service-card"><span>♟</span><h3>Group Management</h3><p>Support for families, community groups and organised departures.</p></div>
+        <div class="service-card"><span>☎</span><h3>Travel Support</h3><p>India-side assistance with Saudi and Dubai team coordination.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="why-section">
+    <div class="container">
+      <div class="center-heading light">
+        <div class="eyebrow">✦ WHY TERANOOR</div>
+        <h2>Your Journey Deserves Care</h2>
+        <p>Our operating model connects India-side customer support with a Saudi Arabia ground team and Dubai support.</p>
+      </div>
+      <div class="why-grid">
+        <div><strong>🇮🇳</strong><h3>India-Based Support</h3><p>Personalised assistance before your departure.</p></div>
+        <div><strong>🇸🇦</strong><h3>Saudi Ground Team</h3><p>Local coordination for hotels, transfers and services.</p></div>
+        <div><strong>🇦🇪</strong><h3>Dubai Support</h3><p>Additional travel and ticketing coordination when required.</p></div>
+        <div><strong>♥</strong><h3>Family Focused</h3><p>Clear communication for individuals, couples and groups.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hotels" class="section holy-section">
+    <div class="container">
+      <div class="center-heading">
+        <div class="eyebrow dark">✦ HOLY CITIES</div>
+        <h2>Makkah & Madinah</h2>
+        <p>Hotel and location options can be discussed according to your dates and package.</p>
+      </div>
+      <div class="city-grid">
+        <div class="city-card city-makkah"><div><span>MAKKAH</span><h3>Masjid al-Haram</h3><p>Stay options around the Holy Mosque.</p></div></div>
+        <div class="city-card city-madinah"><div><span>MADINAH</span><h3>Masjid an-Nabawi</h3><p>Comfortable stays close to the Prophet's Mosque.</p></div></div>
+      </div>
+
+      <div class="hotel-intro">
+        <div>
+          <span class="eyebrow dark">✦ HOTEL OPTIONS</span>
+          <h3>Comfortable Stays in the Holy Cities</h3>
+          <p>We can arrange hotel options in Makkah and Madinah according to your travel dates, room type, location preference and package.</p>
+        </div>
+        <a class="text-link" href="#contact">Ask for Hotel Options →</a>
+      </div>
+
+      <div class="hotel-grid">
+        <article class="hotel-card">
+          <div class="hotel-image hotel-makkah"></div>
+          <div class="hotel-body"><span>MAKKAH</span><h3>Hotel Accommodation</h3><p>Options ranging from practical stays to premium hotels, subject to availability.</p></div>
+        </article>
+        <article class="hotel-card">
+          <div class="hotel-image hotel-madinah"></div>
+          <div class="hotel-body"><span>MADINAH</span><h3>Hotel Accommodation</h3><p>Choose based on distance, comfort, room category and your preferred budget.</p></div>
+        </article>
+        <article class="hotel-card">
+          <div class="hotel-image hotel-room"></div>
+          <div class="hotel-body"><span>ROOM OPTIONS</span><h3>Family & Group Rooms</h3><p>Room configurations can be discussed for couples, families and organised groups.</p></div>
+        </article>
+      </div>
+      <p class="image-note">*Hotel photographs are representative. Actual hotel names, room types and availability will be confirmed with your selected package.</p>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <div class="container quote-box">
+      <span class="quote-mark">“</span>
+      <p>May every step of your journey be filled with ease, peace and acceptance.</p>
+      <small>TeraNoor Hajj & Umrah</small>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-copy">
+        <div class="eyebrow">✦ GET IN TOUCH</div>
+        <h2>Plan Your Hajj & Umrah Journey</h2>
+        <p>Send your requirements and our team will contact you with suitable package options.</p>
+        <div class="contact-details">
+          <a href="tel:+917633801161">☎ +91 76338 01161</a>
+          <a href="mailto:info@teranoor.com">✉ info@teranoor.com</a>
+          <span>⌖ Ranchi, Jharkhand, India</span>
+        </div>
+      </div>
+
+      <form id="enquiryForm" class="enquiry-form">
+        <div class="form-row">
+          <label>Your Name<input id="name" required type="text" placeholder="Full name"></label>
+          <label>Mobile Number<input id="mobile" required type="tel" placeholder="Mobile number"></label>
+        </div>
+        <div class="form-row">
+          <label>City<input id="city" type="text" placeholder="Your city"></label>
+          <label>Package
+            <select id="package">
+              <option>Umrah - General Enquiry</option>
+              <option>Economy Umrah</option>
+              <option>Standard Umrah</option>
+              <option>Premium Umrah</option>
+              <option>Ramadan Umrah</option>
+              <option>Family Umrah</option>
+              <option>Hajj Enquiry</option>
+              <option>Custom Package</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-row">
+          <label>Travellers<input id="travellers" type="number" min="1" placeholder="Number of travellers"></label>
+          <label>Preferred Month<input id="month" type="month"></label>
+        </div>
+        <label>Message<textarea id="message" rows="4" placeholder="Tell us your travel requirements"></textarea></label>
+        <button class="btn btn-primary form-submit" type="submit">Send Enquiry on WhatsApp</button>
+        <p class="form-note">By submitting, WhatsApp will open with your enquiry details.</p>
+      </form>
+    </div>
+  </section>
 </main>
-<footer class="site-footer"><div class="container footer-grid"><div><div class="footer-brand">TeraNoor</div><p>Hajj & Umrah</p><p style="margin-top:10px">An initiative of TeraSyncTech.</p><p>Personalized pilgrimage enquiry support for individuals, families and groups.</p></div><div><h4>Explore</h4><a href="#packages">Umrah Packages</a><a href="#builder">Plan Journey</a><a href="#hotels">Hotels</a><a href="#guides">Guides</a></div><div><h4>Services</h4><a href="#services">Flight Coordination</a><a href="#services">Transport</a><a href="#services">Ziyarat</a><a href="#services">Group Booking</a></div><div><h4>Contact</h4><a href="tel:+917633801161">+91 76338 01161</a><a target="_blank" rel="noopener" href="https://wa.me/917633801161">WhatsApp</a><a href="#contact">Send Enquiry</a></div></div><div class="container footer-bottom">© <span id="year"></span> TeraNoor Hajj & Umrah • An Initiative of TeraSyncTech • All package details subject to availability and confirmation.</div></footer>
-<a class="float-wa" target="_blank" rel="noopener" href="https://wa.me/917633801161?text=Assalamu%20Alaikum%2C%20I%20want%20to%20enquire%20about%20TeraNoor%20Hajj%20%26%20Umrah.">💬 WhatsApp</a>
-<div id="modal" class="modal" aria-hidden="true"><div class="modal-box"><button class="modal-close" onclick="closeModal()">×</button><h3 id="modalTitle">Request a Quote</h3><p>Fill in your details and we will open WhatsApp with a ready-made enquiry.</p><form onsubmit="sendModal(event)"><div class="form-grid"><label class="form-label">Name<input class="form-control" id="mName" required></label><label class="form-label">Mobile<input class="form-control" id="mPhone" required type="tel"></label><label class="form-label">Departure City<input class="form-control" id="mCity" placeholder="Ranchi"></label><label class="form-label">Pilgrims<input class="form-control" id="mPeople" type="number" min="1" value="2"></label><label class="form-label full">Preferred Month<select class="form-control" id="mMonth"><option>Any Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select></label></div><button class="btn btn-primary" style="width:100%;margin-top:15px">Continue to WhatsApp</button></form></div></div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">TeraNoor</div>
+      <p>Hajj & Umrah Services</p>
+      <small>An initiative of TeraSyncTech.</small>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#umrah">Umrah Packages</a>
+      <a href="#hajj">Hajj</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+917633801161">+91 76338 01161</a>
+      <a href="mailto:info@teranoor.com">info@teranoor.com</a>
+      <span>Ranchi, Jharkhand, India</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">© <span id="year"></span> TeraNoor Hajj & Umrah. All rights reserved.</div>
+  </div>
+</footer>
+
 <script>
-const WA='917633801161';
-const menu=document.querySelector('.menu-toggle');const nav=document.querySelector('.main-nav');menu.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('.main-nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));document.getElementById('year').textContent=new Date().getFullYear();
-function wa(text){window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(text),'_blank','noopener')}
-function quickQuote(){const type=document.getElementById('quickType').value,people=document.getElementById('quickPeople').value,city=document.getElementById('quickCity').value||'Not specified',month=document.getElementById('quickMonth').value;wa('Assalamu Alaikum, I want a TeraNoor '+type+' quote.%0ADeparture City: '+city+'%0APilgrims: '+people+'%0APreferred Month: '+month);}
-function openPackage(name){document.getElementById('modalTitle').textContent=name;document.getElementById('modal').classList.add('open');document.getElementById('modal').setAttribute('aria-hidden','false');document.getElementById('mName').focus()}
-function closeModal(){document.getElementById('modal').classList.remove('open');document.getElementById('modal').setAttribute('aria-hidden','true')}
-document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
-function sendModal(e){e.preventDefault();const title=document.getElementById('modalTitle').textContent;const text='Assalamu Alaikum, I am interested in '+title+'.\nName: '+document.getElementById('mName').value+'\nMobile: '+document.getElementById('mPhone').value+'\nDeparture City: '+document.getElementById('mCity').value+'\nPilgrims: '+document.getElementById('mPeople').value+'\nPreferred Month: '+document.getElementById('mMonth').value;wa(text);closeModal()}
-function sendBuilder(e){e.preventDefault();const text='Assalamu Alaikum, I would like a custom TeraNoor enquiry.\nName: '+bName.value+'\nMobile: '+bPhone.value+'\nJourney: '+bType.value+'\nDeparture City: '+bCity.value+'\nPilgrims: '+bPeople.value+'\nDuration: '+bDays.value+'\nMonth: '+bMonth.value+'\nHotel: '+bHotel.value+'\nTransport: '+bTransport.value+'\nSpecial Requirements: '+(bNotes.value||'None');wa(text)}
-function sendContact(e){e.preventDefault();const success=document.getElementById('contactSuccess');success.style.display='block';const text='Assalamu Alaikum, I have a TeraNoor enquiry.\nName: '+cName.value+'\nMobile: '+cPhone.value+'\nInterested In: '+cInterest.value+'\nCity: '+cCity.value+'\nMessage: '+cMessage.value;setTimeout(()=>wa(text),250)}
+document.addEventListener("DOMContentLoaded", () => {
+  const menu = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".main-nav");
+
+  menu?.addEventListener("click", () => nav.classList.toggle("open"));
+  document.querySelectorAll(".main-nav a").forEach(a => {
+    a.addEventListener("click", () => nav.classList.remove("open"));
+  });
+
+  document.querySelectorAll("[data-package]").forEach(link => {
+    link.addEventListener("click", () => {
+      const selected = link.dataset.package;
+      const select = document.getElementById("package");
+      if (select && selected) {
+        [...select.options].forEach(o => {
+          if (o.textContent.toLowerCase().includes(selected.toLowerCase())) {
+            select.value = o.value;
+          }
+        });
+      }
+    });
+  });
+
+  document.getElementById("enquiryForm")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const mobile = document.getElementById("mobile").value.trim();
+    const city = document.getElementById("city").value.trim();
+    const packageName = document.getElementById("package").value;
+    const travellers = document.getElementById("travellers").value.trim();
+    const month = document.getElementById("month").value;
+    const message = document.getElementById("message").value.trim();
+
+    const text =
+`Assalamu Alaikum,
+I would like to enquire about TeraNoor Hajj & Umrah.
+
+Name: ${name}
+Mobile: ${mobile}
+City: ${city || "Not provided"}
+Package: ${packageName}
+Travellers: ${travellers || "Not provided"}
+Preferred Month: ${month || "Not provided"}
+Message: ${message || "Not provided"}
+
+Please share the suitable package details.`;
+
+    window.open("https://wa.me/917633801161?text=" + encodeURIComponent(text), "_blank");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+});
+
 </script>
-</body></html>
+</body>
+</html>
