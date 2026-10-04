@@ -1,14 +1,25 @@
-TeraNoor Hajj & Umrah — GitHub Pages single-file version
+TeraNoor Hajj & Umrah – GitHub Pages
 
-IMPORTANT: Upload ONLY index.html to the ROOT of your GitHub repository.
-This version has CSS and JavaScript embedded inside index.html, so it does not depend on css/style.css or js/script.js.
+This is the final GitHub-ready website package.
 
-If your repository is https://terasynctech.github.io/teranoor-hajj-umrah/
-then index.html must be directly inside the teranoor-hajj-umrah repository root.
+IMPORTANT:
+The website now uses the verified Wikimedia Commons originals directly in the CSS instead of the previous Unsplash/Taj-Mahal-risking images. This means the correct Makkah, Madinah and hotel photographs will display immediately on GitHub Pages.
 
-After replacing index.html:
-1. GitHub -> Settings -> Pages
-2. Source: Deploy from a branch
-3. Branch: main, folder: / (root)
-4. Save
-5. Wait for deployment, then press Ctrl+F5.
+Verified sources:
+1. Makkah / Kaaba — Shahin Olakara — CC BY 2.0
+2. Madinah / Masjid an-Nabawi — Adli Wahid — CC BY-SA 4.0
+3. Makkah hotel — King Eliot — CC BY-SA 4.0
+4. Madinah hotel — Ummat — Public domain
+
+The full source links and licensing information are in IMAGE-ATTRIBUTION.txt.
+
+Local folder structure is also included:
+assets/images/makkah/
+assets/images/madinah/
+assets/images/hotels/
+
+No unrelated/Taj Mahal photographs are used by the website.
+
+GitHub Pages:
+Upload the contents of this folder to the repository root, then enable:
+Settings → Pages → Deploy from branch.
