@@ -139,13 +139,13 @@ body{overflow-x:hidden}
 .hotel-intro{margin:42px 0 20px;padding:28px 30px;border:1px solid #e3ebe6;border-radius:18px;background:linear-gradient(135deg,#fff,#f3faf6);display:flex;justify-content:space-between;align-items:center;gap:30px}
 .hotel-intro h3{font-family:Amiri,Georgia,serif;color:var(--dark);font-size:34px;line-height:1.1;margin-top:2px}
 .hotel-intro p{max-width:720px;color:var(--muted);font-size:13px;margin-top:7px}
-.hotel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.hotel-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:980px;margin:0 auto}
 .hotel-card{background:#fff;border:1px solid #e1e9e4;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(14,62,49,.07);transition:.25s ease}
 .hotel-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(14,62,49,.12)}
 .hotel-image{height:220px;background-size:cover;background-position:center;position:relative}
 .hotel-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,30,23,.35))}
-.hotel-makkah{background-image:url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=85")}
-.hotel-madinah{background-image:url("https://images.unsplash.com/photo-1722189226954-59f3e712160d?auto=format&fit=crop&w=1200&q=85")}
+.hotel-makkah{background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Hotel_Room_(37456623550).jpg") }
+.hotel-madinah{background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Deluxe_Room_at_Shaza_Al_Madina.jpg") }
 .hotel-room{background-image:url("https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=85")}
 .hotel-body{padding:20px}
 .hotel-body>span{font-size:9px;letter-spacing:1.6px;color:#a37b20;font-weight:800}
@@ -352,18 +352,14 @@ body{overflow-x:hidden}
       <div class="hotel-grid">
         <article class="hotel-card">
           <div class="hotel-image hotel-makkah"></div>
-          <div class="hotel-body"><span>MAKKAH</span><h3>Hotel Accommodation</h3><p>Options ranging from practical stays to premium hotels, subject to availability.</p></div>
+          <div class="hotel-body"><span>MAKKAH</span><h3>Premium Room Options</h3><p>Comfortable room options in Makkah, selected according to your package, dates and availability.</p></div>
         </article>
         <article class="hotel-card">
           <div class="hotel-image hotel-madinah"></div>
-          <div class="hotel-body"><span>MADINAH</span><h3>Hotel Accommodation</h3><p>Choose based on distance, comfort, room category and your preferred budget.</p></div>
-        </article>
-        <article class="hotel-card">
-          <div class="hotel-image hotel-room"></div>
-          <div class="hotel-body"><span>ROOM OPTIONS</span><h3>Family & Group Rooms</h3><p>Room configurations can be discussed for couples, families and organised groups.</p></div>
+          <div class="hotel-body"><span>MADINAH</span><h3>Premium Room Options</h3><p>Comfortable room options in Madinah, with suitable categories for couples, families and groups.</p></div>
         </article>
       </div>
-      <p class="image-note">*Hotel photographs are representative. Actual hotel names, room types and availability will be confirmed with your selected package.</p>
+      <p class="image-note">*Room photographs are representative. Actual hotel name, room category, room view and availability will be confirmed with your selected package.</p>
     </div>
   </section>
 
