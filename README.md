@@ -1,31 +1,15 @@
-# TeraNoor Hajj & Umrah
+# TeraNoor Hajj & Umrah — English Clean Edition
 
-A responsive GitHub Pages website for **TeraNoor Hajj & Umrah — An Initiative of TeraSyncTech**.
+GitHub Pages ready single-page website.
 
-## Included features
-- Premium responsive homepage
-- Umrah package cards
-- Hajj enquiry section
-- Custom **Plan My Journey** package builder
-- WhatsApp enquiry generation
-- Quick quote form in hero section
-- Hotel enquiry cards for Makkah and Madinah
-- Services section
-- Makkah & Madinah destination section
-- Pilgrim guides/resources
-- FAQ accordion
-- Customer review placeholders (replace with genuine reviews)
-- Contact/enquiry form
-- Floating WhatsApp button
-- Mobile navigation
-- SEO metadata
-- Wikimedia image attribution file
+## Publish
+1. Upload `index.html` to the root of the GitHub Pages repository.
+2. Enable GitHub Pages from Settings → Pages.
+3. The site uses verified Wikimedia Commons image URLs; an internet connection is required for those images.
+4. Keep `IMAGE-ATTRIBUTION.txt` with the project.
 
-## GitHub Pages
-Upload the contents of this folder to the repository and enable GitHub Pages from the repository's Pages settings.
-
-## Business contact
-WhatsApp / Phone: +91 76338 01161
-
-## Important
-Package prices, hotel availability, flights, visas, transport and Hajj/Umrah authorization should always be confirmed before making a commercial commitment. Do not publish an authorization/licensing claim unless the relevant authorization is actually held.
+## Main contact
+WhatsApp: +91 76338 01161
+Alternative: +91 91084 17969
+Email: hello@terasynctech.com
+Location: Ranchi, Jharkhand, India
